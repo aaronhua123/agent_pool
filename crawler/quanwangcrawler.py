@@ -1,10 +1,7 @@
 import time
-
 import requests
-
-from checkproxy import check_proxy_by_gevent
+from lxml import etree
 import dbmodle
-
 
 def getquanwang():
     url = 'http://www.goubanjia.com/'
@@ -16,12 +13,6 @@ def getquanwang():
     print(proxies)
     r = requests.get(url, headers=headers, timeout=30)
     return r
-
-
-
-
-from lxml import etree
-
 
 def analyzequanwang(r):
     tree = etree.HTML(r.text)

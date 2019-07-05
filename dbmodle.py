@@ -56,8 +56,3 @@ def getkeys():
     key = rhttp.keys()
     keys = rhttps.keys()
     return {'http':key,'https':keys}
-
-
-# if __name__ == '__main__':
-#     print(setkey("http://127.0.0.1:123"))
-#     print(setkey("https:/11616:123",protocol='https'))

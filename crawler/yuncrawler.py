@@ -2,7 +2,6 @@ import time
 from random import choice
 import requests
 import dbmodle
-from checkproxy import check_proxy_by_gevent
 
 
 def queryyun(page):
