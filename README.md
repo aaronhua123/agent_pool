@@ -8,7 +8,7 @@
 安装python3，安装对应的依赖库（flask，requests，lxml），安装redis数据库
 
 # 架构图
-![架构图](https://tva4.sinaimg.cn/large/007DFXDhgy1g4p3p2ojpwj30wm0fvmyb.jpg
+![架构图](./1.png
 )
 
 # 使用方法
@@ -19,7 +19,7 @@
 4. 启动checkproxy.py（用于检测代理，推送到可用的代理池）
 
 
-![使用方法](https://ws3.sinaimg.cn/large/007DFXDhgy1g4p3vee9doj30cj0ar0tr.jpg
+![使用方法](./2.png
 )
 
 
@@ -35,5 +35,5 @@ print(r.status_code)
 
 # 结果
 从redis上可以看到，采集到的代理用19个，其中17个是能用的。当然，你也可以编辑crawler部分，增加更多的代理。  
-![结果](https://tva4.sinaimg.cn/large/007DFXDhgy1g4p3vebq3qj309q05vaa3.jpg
+![结果](./3.png
 )
