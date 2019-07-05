@@ -2,7 +2,7 @@ import time
 
 import requests
 
-from checkcichiproxy import check_proxy_by_gevent
+from checkproxy import check_proxy_by_gevent
 import dbmodle
 
 
